@@ -85,3 +85,9 @@ body {
 .image {
     text-align: center;
 }
+
+.view {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
