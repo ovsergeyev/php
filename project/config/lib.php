@@ -12,3 +12,10 @@ function getPage(array $pages) {
 
     return $pages[$pageNumber];
 }
+
+function getId(){
+    if(!empty($_GET['id'])){
+        return (int)$_GET['id'];
+    }
+    return 0;
+}
